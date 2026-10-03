@@ -1,0 +1,41 @@
+g# Logs
+logs
+*.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+build/
+coverage/
+.nyc_output/
+*-error.log*
+cypress/downloads/
+cypress/screenshots/**/*.png
+cypress/videos/**/*.mp4
+cypress/**/*.diff.png
+
+# TODO: check if image snapshots are required to be committed
+cypress/**/**/**/__image_snapshots__
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/css-data.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tgz
+.npm/
+*.orig
+*.bak
+*.cache
+*.tmp
+*.env
+*.env.*
+!*.env.sut
+reports/
