@@ -26,6 +26,13 @@ export default {
             exposes: {
                 './CartShow': './src/index',
             },
+            shared: {
+             
+                '@faker-js/faker': {
+                    singleton: true,
+                    eager: true,
+                },
+            },
         }),
     ],
 }

@@ -26,6 +26,13 @@ export default {
             exposes: {
                 './ProductsIndex': './src/index',
             },
+            shared: {
+                
+                '@faker-js/faker': {
+                    singleton: true,
+                     eager: true,
+                },
+            },
         }),
     ],
 }
